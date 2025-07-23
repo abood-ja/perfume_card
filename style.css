@@ -63,7 +63,7 @@ html {
   padding: 0 3rem;
 }
 .grid {
-  max-width: 70rem;
+  max-width: 50rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: hsl(0, 0%, 100%);
@@ -75,15 +75,26 @@ html {
 .grid:hover {
   transform: translateY(-1.3rem);
 }
+
+.image-container {
+  overflow: hidden;
+}
 .product-image {
+  transition: all 0.7s;
   max-width: 100%;
+  display: inherit;
+}
+.product-image:hover {
   transform: scale(1.1);
 }
 .card-content {
-  padding: 3.5rem;
+  padding-top: 3rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 1rem;
 }
 .product-category {
   text-transform: uppercase;
