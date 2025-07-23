@@ -92,3 +92,45 @@ img {
   line-height: 0.9;
   color: hsl(212, 21%, 14%);
 }
+.product-description {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+.price {
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+}
+.current {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", "serif";
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.old {
+  color: hsl(228, 12%, 48%);
+  font-family: "Fraunces", "serif";
+  text-decoration: line-through;
+}
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 12px;
+  padding: 1.2rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.add:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+.add img {
+  padding-right: 1rem;
+}
