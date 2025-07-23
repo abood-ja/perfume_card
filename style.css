@@ -48,9 +48,47 @@ The designs were created to the following widths:
 body {
   background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat", "sans-serif";
-  font-weight: 400;
   line-height: 1;
+  font-size: 1.4rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 html {
   font-size: 62.5%;
+}
+.container {
+  margin: 3rem auto;
+  padding: 0 3rem;
+}
+.grid {
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+}
+.card-content {
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-category {
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.product-title {
+  font-family: "Fraunces", "serif";
+  font-size: 3.4rem;
+  line-height: 0.9;
+  color: hsl(212, 21%, 14%);
 }
