@@ -144,6 +144,7 @@ html {
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: 100%;
 }
 .add:hover {
   background-color: hsl(158, 42%, 18%);

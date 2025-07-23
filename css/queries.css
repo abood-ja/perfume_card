@@ -1,0 +1,32 @@
+@media (max-width: 20em) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .image-container {
+    max-height: 100%;
+  }
+  .product-image {
+    max-height: 20rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-content {
+    padding-top: 2rem;
+
+    padding-bottom: 1rem;
+    display: block;
+  }
+  .product-category,
+  .product-title,
+  .product-description,
+  .price {
+    padding-bottom: 1rem;
+  }
+  .product-title {
+    font-size: 2.4rem;
+  }
+  .product-description {
+    font-size: 1.1rem;
+  }
+}
